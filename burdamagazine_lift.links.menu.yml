@@ -1,0 +1,7 @@
+burdamagazine_lift.config_form:
+  title: 'Burda Acquia Lift Settings'
+  route_name: burdamagazine_lift.config_form
+  description: ''
+  parent: system.admin_config_content
+  weight: 99
+

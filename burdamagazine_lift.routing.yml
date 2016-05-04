@@ -1,0 +1,10 @@
+burdamagazine_lift.config_form:
+  path: '/admin/config/content/burdamagazine_lift'
+  defaults:
+    _form: '\Drupal\burdamagazine_lift\Form\ConfigForm'
+    _title: 'ConfigForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+

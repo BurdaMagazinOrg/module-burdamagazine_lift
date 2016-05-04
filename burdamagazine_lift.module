@@ -1,0 +1,24 @@
+<?php
+/**
+ * @file
+ * Contains
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function burdamagazine_lift_page_attachments(array &$page) {
+
+  // Create and attach settings and library only when path context agrees on attaching.
+  if (!\Drupal::service('acquia_lift.service.context.path_context')->shouldAttach()
+  ) {
+    return;
+  }
+  $settings = \Drupal::config('burdamagazine_lift.settings')->get('enable_search_engine_filter');
+  $drupal_settings['enable_search_engine_filter'] = $settings;
+
+  // Attach JavaScript library and settings.
+  $page['#attached']['library'][] = 'burdamagazine_lift/burdamagazine_lift';
+  $page['#attached']['drupalSettings']['burdamagazine_lift'] = $drupal_settings;
+
+}

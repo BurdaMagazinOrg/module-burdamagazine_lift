@@ -1,0 +1,8 @@
+burdamagazine_lift:
+  version: VERSION
+  js:
+    js/burdamagazine_lift.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
