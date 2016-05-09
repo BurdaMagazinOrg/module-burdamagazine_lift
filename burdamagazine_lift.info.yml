@@ -1,6 +1,6 @@
 name: BurdaMagazine Lift
 type: module
-description: My Awesome Module
+description: Various additional Acquia Lift settings
 core: 8.x
 package: BurdaMagazine
 dependencies:
