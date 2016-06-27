@@ -10,5 +10,8 @@
     "issues": "http://drupal.org/project/issues/burdamagazine_lift",
     "source": "http://cgit.drupalcode.org/burdamagazine_lift"
   },
-  "require": { }
+  "require": { },
+  "require-dev": {
+    "burdamagazinorg/thunder-dev-tools": "dev-master"
+  }
 }
