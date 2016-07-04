@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Contains
+ * Contains.
  */
 
 /**
@@ -9,7 +9,8 @@
  */
 function burdamagazine_lift_page_attachments(array &$page) {
 
-  // Create and attach settings and library only when path context agrees on attaching.
+  // Create and attach settings and library only when
+  // path context agrees on attaching.
   if (!\Drupal::service('acquia_lift.service.context.path_context')->shouldAttach()
   ) {
     return;

@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @file
- * Contains Drupal\burdamagazine_lift\Form\ConfigForm.
- */
-
 namespace Drupal\burdamagazine_lift\Form;
 
 use Drupal\Core\Form\ConfigFormBase;
@@ -43,7 +38,7 @@ class ConfigForm extends ConfigFormBase {
       '#type' => 'checkbox',
       '#title' => t('Enable search engine filter'),
       '#description' => t('Enable this checkbox to filter out search engine traffic.'),
-      '#default_value' => $config->get('enable_search_engine_filter')
+      '#default_value' => $config->get('enable_search_engine_filter'),
     );
 
     return parent::buildForm($form, $form_state);

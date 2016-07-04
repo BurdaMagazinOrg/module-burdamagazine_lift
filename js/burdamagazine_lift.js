@@ -1,8 +1,7 @@
 var lift_init = Drupal.acquia_lift.initialize.bind({});
 
 (function ($, Drupal, settings) {
-
-  "use strict";
+  'use strict';
 
   Drupal.acquia_lift.initialize = function () {
 
