@@ -1,9 +1,9 @@
 {
-  "name": "drupal/burdamagazine_lift",
+  "name": "burdamagazinorg/burdamagazine_lift",
   "type": "drupal-module",
-  "description": "My Awesome Module",
+  "description": "",
   "keywords": ["Drupal"],
-  "license": "GPL-2.0+",
+  "license": "GPL-2.0-or-later",
   "homepage": "https://www.drupal.org/project/burdamagazine_lift",
   "minimum-stability": "dev",
   "support": {
